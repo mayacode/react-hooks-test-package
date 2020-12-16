@@ -1,5 +1,5 @@
-const { add } = require('./stateHooks');
+const { useOpen } = require('./src/stateHooks');
 
 module.exports = {
-  add,
+  useOpen,
 }
