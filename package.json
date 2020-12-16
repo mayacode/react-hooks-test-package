@@ -4,7 +4,8 @@
   "description": "test package for common react hooks",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --ci --coverage && codecov",
+    "test-dev": "jest --coverage"
   },
   "repository": {
     "type": "git",

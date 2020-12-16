@@ -3,3 +3,4 @@ node_js:
   - 15
 before_install:
   - npm i -g npm@7.0.10
+  - npm install -g codecov
